@@ -2,9 +2,9 @@ name: project ci/cd flow
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master|Master ]
   pull_request:
-    branches: [ master ]
+    branches: [ master|Master ]
 
 jobs:
   build:
