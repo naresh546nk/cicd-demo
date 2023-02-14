@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 
+
 	@GetMapping("/")
 	public String health(){
 		return  "This application is running fine ...";
